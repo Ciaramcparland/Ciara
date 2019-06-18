@@ -8,7 +8,6 @@
 <title>Title of the document</title>
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="stylesheet" href="styles/styles.css">
-<script src="scripts/contactus.js"></script>
 </head>
 <body>
   <header>
@@ -34,17 +33,18 @@
       <img src="images/charlie1.jpeg" height="300px" alt="this is a picture of a dog" />
       <form name="contact" method="POST" data-netlify="true">
         <label>first name</label>  
-        <input name="first-name" type="text"/>
+        <input id="first-name" name="first-name" type="text"/>
         <label>last name</label>  
-        <input name="last-name" type="text"/>
+        <input id="last-name" name="last-name" type="text"/>
         <label>message</label>
-        <textarea name="message" ></textarea>
-        <button type="submit">submit</button>
+        <textarea id="message" name="message" ></textarea>
+        <button id="submit" type="submit">submit</button>
       </form>
     </section>
 
 
   </main>
+  <script src="scripts/contactus.js"></script>
 
   </body>
 

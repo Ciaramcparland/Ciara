@@ -85,3 +85,6 @@ form button {
     border: none;
     border-radius: 2rem;
 }
+form button:disabled {
+    background: grey;
+}
