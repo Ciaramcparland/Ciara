@@ -44,6 +44,7 @@ section {
     background-color: #fff;
     padding: 10px 20px 10px 20px; /* top right bottom left */
     border-radius: 15px;
+    min-height: 600px;
 }
 
 .container {
@@ -58,10 +59,13 @@ section {
 form {
     font-size: 17pt;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     padding: 1.5rem;
+    left: 50px;
+    position: relative;
+    display: block;
 }
 form input, form textarea {
     font-size: 17pt;
